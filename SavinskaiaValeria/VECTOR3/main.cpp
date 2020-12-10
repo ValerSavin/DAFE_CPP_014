@@ -17,4 +17,12 @@ int main()
     for(int i = 0; i < vec_.size(); i++)
         cout << vec_[i] << ' ';
     cout << '\n';
+    
+        vec.push_back(2);
+
+    for (int i = 0; i < vec.size(); i++)
+        cout << vec[i] << ' ';
+    cout << '\n';
+    
+    return 0;
 }
